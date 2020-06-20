@@ -1,0 +1,5 @@
+profile: service
+defaultPackage: custom.security.rule
+---
+testFramework: junit
+sourceLanguage: java
