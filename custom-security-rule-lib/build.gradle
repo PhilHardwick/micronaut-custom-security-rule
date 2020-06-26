@@ -1,0 +1,21 @@
+plugins {
+    id "java-library"
+    id "groovy"
+}
+
+version "0.1"
+group "custom.security.rule"
+
+dependencies {
+    annotationProcessor platform("io.micronaut:micronaut-bom:$micronautVersion")
+    annotationProcessor "io.micronaut:micronaut-inject-java"
+    implementation platform("io.micronaut:micronaut-bom:$micronautVersion")
+    implementation "io.micronaut:micronaut-security-jwt"
+    implementation "io.micronaut:micronaut-inject"
+    implementation "io.micronaut:micronaut-runtime"
+
+    testImplementation "io.micronaut:micronaut-security-jwt"
+    testImplementation "io.micronaut:micronaut-http-client"
+    testImplementation "io.micronaut:micronaut-http-server-netty"
+}
+

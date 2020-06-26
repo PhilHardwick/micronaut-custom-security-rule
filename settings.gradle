@@ -1,1 +1,3 @@
 rootProject.name="custom-security-rule"
+
+include ":custom-security-rule-lib", ":custom-security-rule-openapi", ":custom-security-rule-example-application"
