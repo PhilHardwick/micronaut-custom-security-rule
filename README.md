@@ -10,6 +10,6 @@ To build this project, execute in the root of the project:
 which will build and run the tests.
 
 ## Run
-To run this example, execute in the root of the project:
+To run the example, execute in the root of the project:
 
-    ./gradlew run
+    ./gradlew :custom-security-rule-example-application:run
